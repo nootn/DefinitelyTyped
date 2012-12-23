@@ -14,6 +14,11 @@ interface VideoBool {
     webm: bool;
 }
 
+interface InputBool {
+    placeholder: bool;
+    autofocus: bool;
+}
+
 interface ModernizrStatic {
     fontface: bool;
     backgroundsize: bool;
@@ -43,6 +48,7 @@ interface ModernizrStatic {
     audio: AudioBool;
     video: VideoBool;
     indexeddb: bool;
+    input: InputBool;
     localstorage: bool;
     postmessage: bool;
     sessionstorage: bool;
